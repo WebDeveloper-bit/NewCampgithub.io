@@ -1,10 +1,15 @@
 <%- include("./partials/header") %>
 <h1>Sign Up!</h1>
 
-<form action="/register" method="POST">
-	<input type="text" name="username" placeholder="username">
-	<input type="password" name="password" placeholder="password">
-	<button>Sign Up!</button>
-</form>
+<div class="row justify-content-center">
+	<div class="col-lg-6">
+		<form action="/register" method="POST">
+			<input type="text" name="username" placeholder="username">
+			<input type="password" name="password" placeholder="password">
+			<button>Sign Up!</button>
+		</form>
+	</div>
+ </div>	
+	
 
 <%- include("./partials/footer") %>
